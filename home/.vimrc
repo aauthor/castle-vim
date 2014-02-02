@@ -39,6 +39,7 @@ set undodir=$HOME/.vim/undo
 set undofile
 
 color gruvbox
+set bg=dark
 
 set spell spelllang=en_us
 
