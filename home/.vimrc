@@ -4,7 +4,7 @@ runtime bundle/vim-pathogen/autoload/pathogen.vim
 execute pathogen#infect()
 
 syntax on
-filetype plugin indent on     " required!
+filetype plugin indent on
 
 set wildmenu
 set wildmode=list:longest,full
