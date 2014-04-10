@@ -37,12 +37,9 @@
 [submodule "home/.vim/bundle/vim-pathogen"]
 	path = home/.vim/bundle/vim-pathogen
 	url = https://github.com/tpope/vim-pathogen.git
-[submodule "home/.vim/bundle/tagbar"]
-	path = home/.vim/bundle/tagbar
-	url = https://github.com/majutsushi/tagbar.git
-[submodule "home/.vim/bundle/vim-easytags"]
-	path = home/.vim/bundle/vim-easytags
-	url = https://github.com/xolox/vim-easytags.git
 [submodule "home/.vim/bundle/vim-misc"]
 	path = home/.vim/bundle/vim-misc
 	url = https://github.com/xolox/vim-misc.git
+[submodule "home/.vim/bundle/taglist.vim"]
+	path = home/.vim/bundle/taglist.vim
+	url = https://github.com/vim-scripts/taglist.vim.git

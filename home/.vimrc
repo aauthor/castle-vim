@@ -2,6 +2,7 @@ set shell=/bin/zsh
 
 runtime bundle/vim-pathogen/autoload/pathogen.vim
 execute pathogen#infect()
+Helptags
 
 syntax on
 filetype plugin indent on
@@ -17,8 +18,7 @@ set softtabstop=2
 set expandtab
 
 inoremap jj <ESC>
-nmap <F8> :TagbarToggle<CR>
-nmap <F5> :CommandTFlush<CR>
+nmap <F8> :TlistToggle<CR>
 
 set colorcolumn=121
 set textwidth=120
@@ -40,6 +40,7 @@ set undofile
 
 color gruvbox
 set bg=dark
+set guifont=Monospace\ 11
 
 set spell spelllang=en_us
 
