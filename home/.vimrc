@@ -19,6 +19,7 @@ set expandtab
 
 inoremap jj <ESC>
 nmap <F8> :TlistToggle<CR>
+map <C-n> :NERDTreeToggle<CR>
 
 set colorcolumn=121
 set textwidth=120

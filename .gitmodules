@@ -43,3 +43,18 @@
 [submodule "home/.vim/bundle/taglist.vim"]
 	path = home/.vim/bundle/taglist.vim
 	url = https://github.com/vim-scripts/taglist.vim.git
+[submodule "home/.vim/bundle/nerdtree"]
+	path = home/.vim/bundle/nerdtree
+	url = https://github.com/scrooloose/nerdtree.git
+[submodule "home/.vim/bundle/taboo.vim"]
+	path = home/.vim/bundle/taboo.vim
+	url = https://github.com/vim-scripts/taboo.vim.git
+[submodule "home/.vim/bundle/vim-rake"]
+	path = home/.vim/bundle/vim-rake
+	url = https://github.com/tpope/vim-rake.git
+[submodule "home/.vim/bundle/vim-rvm"]
+	path = home/.vim/bundle/vim-rvm
+	url = https://github.com/tpope/vim-rvm.git
+[submodule "home/.vim/bundle/vim-easytags"]
+	path = home/.vim/bundle/vim-easytags
+	url = https://github.com/xolox/vim-easytags.git
