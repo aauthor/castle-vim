@@ -20,9 +20,12 @@ set expandtab
 inoremap jj <ESC>
 nmap <F8> :TlistToggle<CR>
 map <C-n> :NERDTreeToggle<CR>
+" save sanity while pressing ctrl-w or ctrl-u in insert mode
+inoremap <c-u> <c-g>u<c-u>
+inoremap <c-w> <c-g>u<c-w>
 
-set colorcolumn=121
-set textwidth=120
+set colorcolumn=80
+set textwidth=80
 
 au BufNewFile,BufRead *.md set filetype=markdown
 
@@ -41,8 +44,13 @@ set undofile
 
 color gruvbox
 set bg=dark
-set guifont=Monospace\ 11
+set guifont=Monospace\ 10
+set guioptions-=T
+set guioptions-=r
+set guioptions-=b
 
 set spell spelllang=en_us
 
 let g:vimwiki_list = [{'path': '~/Dropbox/wiki', 'path_html': '~/wiki_html/'}]
+let g:easytags_async = 1
+let g:easytags_auto_highlight = 0
