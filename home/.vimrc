@@ -26,6 +26,7 @@ inoremap <c-w> <c-g>u<c-w>
 
 set colorcolumn=80
 set textwidth=80
+set nowrap
 
 au BufNewFile,BufRead *.md set filetype=markdown
 
