@@ -49,6 +49,7 @@ set guifont=Monospace\ 10
 set guioptions-=T
 set guioptions-=r
 set guioptions-=b
+set guioptions-=m
 
 set spell spelllang=en_us
 
