@@ -18,7 +18,7 @@ set softtabstop=2
 set expandtab
 
 inoremap jj <ESC>
-nmap <F8> :TlistToggle<CR>
+nmap <F8> :TagbarToggle<CR>
 map <C-n> :NERDTreeToggle<CR>
 " save sanity while pressing ctrl-w or ctrl-u in insert mode
 inoremap <c-u> <c-g>u<c-u>
@@ -56,3 +56,6 @@ set spell spelllang=en_us
 let g:vimwiki_list = [{'path': '~/Dropbox/wiki', 'path_html': '~/wiki_html/'}]
 let g:easytags_async = 1
 let g:easytags_auto_highlight = 0
+
+set exrc            " enable per-directory .vimrc files
+set secure          " disable unsafe commands in local .vimrc files
