@@ -1,7 +1,7 @@
 castle-vim
 ==========
 
-Tom's vim configurations!
+Tom's vim configurations, complete with [.vimrc](home/.vimrc)!
 
 Installing
 ----------
