@@ -10,6 +10,8 @@ filetype plugin indent on
 set wildmenu
 set wildmode=list:longest,full
 
+set encoding=utf-8
+
 set smartindent
 set autoindent
 set tabstop=2
@@ -38,6 +40,7 @@ set undodir=$HOME/.vim/undo
 set undofile
 
 set number
+set relativenumber
 
 set laststatus=2
 set undodir=$HOME/.vim/undo
